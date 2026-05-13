@@ -1,6 +1,6 @@
 # Splash Screen y Pantallas de Carga
 
-Demo breve para una exposicion de Programacion movil y Experiencia de usuario.
+Demo breve para exposición de Programación móvil.
 
 ## Como usarla desde cualquier PC
 
@@ -33,6 +33,6 @@ La demo muestra tres momentos:
 
 Tambien incluye un boton para simular error, porque una buena pantalla de carga debe comunicar cuando algo falla.
 
-## Guion corto
+## Descripción
 
-"Al abrir una app, el usuario no deberia ver una pantalla en blanco. Primero usamos un Splash Screen, que muestra marca, color y logo mientras inicia la aplicacion. Despues, si la app todavia necesita validar sesion o cargar datos, usamos una Loading Screen con mensaje y progreso. Cuando todo esta listo, pasamos a la pantalla principal. Si ocurre un error, la app debe explicarlo y permitir reintentar."
+Al abrir una app, el usuario no deberia ver una pantalla en blanco. Primero usamos un Splash Screen, que muestra marca, color y logo mientras inicia la aplicacion. Despues, si la app todavia necesita validar sesion o cargar datos, usamos una Loading Screen con mensaje y progreso. Cuando todo esta listo, pasamos a la pantalla principal. Si ocurre un error, la app debe explicarlo y permitir reintentar.
