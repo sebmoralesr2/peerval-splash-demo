@@ -2,9 +2,28 @@
 
 Demo breve para una exposicion de Programacion movil y Experiencia de usuario.
 
-## Como usarla
+## Como usarla desde cualquier PC
 
-Abre `index.html` en el navegador.
+Clona el repositorio:
+
+```bash
+git clone https://github.com/Valerieperezc/Splash-Screen.git
+cd Splash-Screen
+```
+
+Despues abre `index.html` en el navegador.
+
+No necesita instalar dependencias ni ejecutar servidores, porque la demo esta hecha con HTML, CSS y JavaScript puro.
+
+Tambien puedes abrirlo desde la terminal:
+
+```bash
+open index.html
+```
+
+En Windows, puedes hacer doble clic sobre `index.html`.
+
+## Que muestra
 
 La demo muestra tres momentos:
 
