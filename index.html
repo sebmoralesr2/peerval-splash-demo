@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Splash Screen y Loading Screen</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="stage" aria-label="Demostracion de splash screen y loading screen">
+      <section class="phone" aria-live="polite">
+        <div id="splash" class="screen splash is-active">
+          <div class="brand-mark">S</div>
+          <h1>StudyGo</h1>
+          <p>Aprende sin esperar</p>
+        </div>
+
+        <div id="loading" class="screen loading">
+          <div class="top-bar">
+            <span class="mini-logo">S</span>
+            <span>Preparando app</span>
+          </div>
+          <div class="loader-content">
+            <div class="spinner" aria-hidden="true"></div>
+            <h2 id="loading-title">Cargando tu inicio</h2>
+            <p id="loading-message">Validando sesion y cursos guardados...</p>
+            <div class="progress-track">
+              <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <span id="progress-label">0%</span>
+          </div>
+        </div>
+
+        <div id="home" class="screen home">
+          <div class="home-header">
+            <div>
+              <span>Bienvenido</span>
+              <h2>StudyGo</h2>
+            </div>
+            <button id="reset-from-home" class="icon-button" type="button" title="Reiniciar demo">
+              ↻
+            </button>
+          </div>
+
+          <div class="course-card">
+            <span class="badge">Curso activo</span>
+            <h3>UX movil</h3>
+            <p>Splash Screen y Pantallas de Carga</p>
+            <div class="course-progress">
+              <span></span>
+            </div>
+          </div>
+
+          <div class="grid">
+            <article>
+              <strong>3</strong>
+              <span>Lecciones</span>
+            </article>
+            <article>
+              <strong>92%</strong>
+              <span>Listo</span>
+            </article>
+          </div>
+        </div>
+
+        <div id="error" class="screen error">
+          <div class="error-symbol">!</div>
+          <h2>No se pudo cargar</h2>
+          <p>La pantalla de carga tambien debe comunicar errores y permitir intentar de nuevo.</p>
+          <button id="retry" type="button">Reintentar</button>
+        </div>
+      </section>
+
+      <aside class="panel">
+        <h2>Demo breve</h2>
+        <p>
+          Muestra que la app no pasa de una pantalla en blanco al inicio: primero aparece
+          identidad visual, luego retroalimentacion de carga y finalmente el contenido.
+        </p>
+
+        <div class="controls">
+          <button id="restart" type="button">Reiniciar flujo</button>
+          <button id="simulate-error" class="secondary" type="button">Simular error</button>
+        </div>
+
+        <ol class="steps">
+          <li><span id="step-splash" class="dot active"></span>Splash Screen: marca e identidad.</li>
+          <li><span id="step-loading" class="dot"></span>Loading Screen: progreso y mensaje.</li>
+          <li><span id="step-home" class="dot"></span>Pantalla principal: app lista.</li>
+        </ol>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,1 +1,19 @@
-# Splash-Screen
+# Splash Screen y Pantallas de Carga
+
+Demo breve para una exposicion de Programacion movil y Experiencia de usuario.
+
+## Como usarla
+
+Abre `index.html` en el navegador.
+
+La demo muestra tres momentos:
+
+1. Splash Screen: aparece apenas inicia la app y presenta la identidad visual.
+2. Loading Screen: informa que la app esta preparando datos.
+3. Pantalla principal: se muestra cuando la carga termina.
+
+Tambien incluye un boton para simular error, porque una buena pantalla de carga debe comunicar cuando algo falla.
+
+## Guion corto
+
+"Al abrir una app, el usuario no deberia ver una pantalla en blanco. Primero usamos un Splash Screen, que muestra marca, color y logo mientras inicia la aplicacion. Despues, si la app todavia necesita validar sesion o cargar datos, usamos una Loading Screen con mensaje y progreso. Cuando todo esta listo, pasamos a la pantalla principal. Si ocurre un error, la app debe explicarlo y permitir reintentar."
