@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# Demo de Splash Screens
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este repositorio contiene un demo del tema **Splash Screens en aplicaciones móviles**, desarrollado por:
 
-## Get started
+- **Juan Sebastian Morales**
+- **Valerie Perez**
 
-1. Install dependencies
+## Descripción
 
-   ```bash
-   npm install
-   ```
+El proyecto presenta varios ejemplos de **Splash Screens** implementados en una aplicación móvil con **React Native y Expo**.
 
-2. Start the app
+El objetivo del demo es mostrar cómo una pantalla inicial puede mejorar la experiencia del usuario al abrir una app, reforzando la identidad visual, evitando pantallas en blanco y dando una sensación de carga más fluida y profesional.
 
-   ```bash
-   npx expo start
-   ```
+## ¿Qué incluye el demo?
 
-In the output, you'll find options to open the app in a
+- Diferentes diseños de Splash Screen.
+- Transiciones hacia una pantalla de inicio de sesión.
+- Uso de animaciones.
+- Paleta visual coherente.
+- Mockup básico de login.
+- Navegación entre varios ejemplos de Splash Screen.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tecnologías utilizadas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- Expo Linear Gradient
+- Vector Icons
 
-## Get a fresh project
+## Diapositivas
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+https://drive.google.com/drive/folders/1JS1RXx_GKax_K3SN7GjPX2rIfu8-Atx9?usp=sharing
