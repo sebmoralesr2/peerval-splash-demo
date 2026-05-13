@@ -7,8 +7,8 @@ Demo breve para exposición de Programación móvil.
 Clona el repositorio:
 
 ```bash
-git clone https://github.com/Valerieperezc/Splash-Screen.git
-cd Splash-Screen
+git clone https://github.com/Valerieperezc/peerval-splash-demo.git
+cd peerval-splash-demo
 ```
 
 Despues abre `index.html` en el navegador.
