@@ -1,33 +1,36 @@
-# Demo de Splash Screens
+# Demo de Splash Screen en Flutter
 
-Este repositorio contiene un demo del tema **Splash Screens en aplicaciones móviles**, desarrollado por:
+Este repositorio contiene un demo de **Splash Screen** implementado en Flutter con la libreria `flutter_native_splash`.
 
-- **Juan Sebastian Morales**
-- **Valerie Perez**
+## Descripcion
 
-## Descripción
+La aplicacion muestra un splash screen nativo antes de cargar una pantalla simple de inicio de sesion para **Peerval**. El splash usa el color principal de la marca y el icono ubicado en `assets/images/icon.png`.
 
-El proyecto presenta varios ejemplos de **Splash Screens** implementados en una aplicación móvil con **React Native y Expo**.
+## Tecnologias utilizadas
 
-El objetivo del demo es mostrar cómo una pantalla inicial puede mejorar la experiencia del usuario al abrir una app, reforzando la identidad visual, evitando pantallas en blanco y dando una sensación de carga más fluida y profesional.
+- Flutter
+- Dart
+- flutter_native_splash
+- Material 3
 
-## ¿Qué incluye el demo?
+## Ejecutar el proyecto
 
-- Diferentes diseños de Splash Screen.
-- Transiciones hacia una pantalla de inicio de sesión.
-- Uso de animaciones.
-- Paleta visual coherente.
-- Mockup básico de login.
-- Navegación entre varios ejemplos de Splash Screen.
+```bash
+flutter pub get
+flutter run
+```
 
-## Tecnologías utilizadas
+Para regenerar los recursos nativos del splash:
 
-- React Native
-- Expo
-- TypeScript
-- Expo Router
-- Expo Linear Gradient
-- Vector Icons
+```bash
+dart run flutter_native_splash:create
+```
+
+## Plataformas configuradas
+
+- Android
+- iOS
+- Web
 
 ## Diapositivas
 

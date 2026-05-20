@@ -1,6 +1,6 @@
 import { FontAwesome } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import {
   Animated,
   Easing,
@@ -28,11 +28,7 @@ export default function HomeScreen() {
   const progress = useRef(new Animated.Value(0)).current;
   const float = useRef(new Animated.Value(0)).current;
 
-  useEffect(() => {
-    iniciarSplash();
-  }, [splashActual]);
-
-  const iniciarSplash = () => {
+  const iniciarSplash = useCallback(() => {
     setMostrandoSplash(true);
 
     opacity.setValue(0);
@@ -87,7 +83,11 @@ export default function HomeScreen() {
     setTimeout(() => {
       setMostrandoSplash(false);
     }, 3500);
-  };
+  }, [float, opacity, progress, scale, translateY]);
+
+  useEffect(() => {
+    iniciarSplash();
+  }, [iniciarSplash, splashActual]);
 
   const siguienteSplash = () => {
     setSplashActual((prev) => (prev + 1) % 4);
